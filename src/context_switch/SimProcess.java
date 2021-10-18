@@ -23,7 +23,7 @@ public class SimProcess
             pid = processID;
         }
         else
-            pid = -1;
+            pid = 0;
     }
 
     public void setProcName(String processName)
@@ -38,7 +38,7 @@ public class SimProcess
             ttlInstructions = totalInstructions;
         }
         else
-            ttlInstructions = -1;
+            ttlInstructions = 0;
     }
 
     public int getPID()

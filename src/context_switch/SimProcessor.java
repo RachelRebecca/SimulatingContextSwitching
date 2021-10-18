@@ -13,7 +13,7 @@ public class SimProcessor
 
     public SimProcessor()
     {
-        currProcess = new SimProcess(-1, "Process", 0); //in order to initialize it to something
+        currProcess = new SimProcess(0, "Process", 0); //in order to initialize it to something
         currInstruction = 0;
         //randomly initialize these values until they are set in Main
         r1 = setRegisterValue();

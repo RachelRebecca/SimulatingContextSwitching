@@ -40,7 +40,7 @@ public class ProcessControlBlock
             currInstruction = currentInstruction;
         }
         else
-            currInstruction = -1;
+            currInstruction = 0;
     }
 
     public int getCurrInstruction()
